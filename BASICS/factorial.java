@@ -8,9 +8,8 @@ public class factorial {
         System.out.print("Enter the No. : "); 
         int fa= sc.nextInt();
         int n=fa;
-        for(int i=1;i<fa;i++){
-            fa*=i;
-            System.out.print("f becomes"+fa); 
+        for(int i=1;i<n;i++){
+            fa*=i; 
         }
         System.out.print("The factorial of "+n+" is : "+fa); 
     }
