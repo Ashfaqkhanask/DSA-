@@ -1,4 +1,3 @@
-package BASICS;
 
 import java.util.Scanner;
 
@@ -11,21 +10,21 @@ public class greatestno {
         int b= sc.nextInt();
         System.out.print("\nEnter 3rd number : "); 
         int c= sc.nextInt();
-        // // if(a>b){
-        //     if(a>c){
-        //         System.out.print("\nThe Greatest No. is : "+a); 
-        //     }
-        // }if(b>c){
-        //     if(b>a){
-        //         System.out.print("\nThe Greatest No. is : "+b); 
-        //     }
-        // }
-        // if(c>a){
-        //     if(c>b){
-        //         System.out.print("\nThe Greatest No. is : "+c); 
-        //     }
-        // }
-        int[] arr={a,b,c};
+        if(a>b){
+            if(a>c){
+                System.out.print("\nThe Greatest No. is : "+a); 
+            }
+        }if(b>c){
+            if(b>a){
+                System.out.print("\nThe Greatest No. is : "+b); 
+            }
+        }
+        if(c>a){
+            if(c>b){
+                System.out.print("\nThe Greatest No. is : "+c); 
+            }
+        }
+        int[] arr={4,52,6,7,56,1,5,73,45};
         System.out.print("\nOriginal Array : "+(arr));
         int s=0;
         int t;
