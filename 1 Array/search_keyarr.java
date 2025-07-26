@@ -12,15 +12,9 @@ public class search_keyarr {
             c+=1;
             if(arr[i]==key){
                 res=i;
-            System.out.println("The key "+key+" found at index "+i);
-            break;
+                System.out.println("The key "+key+" found at index "+i);
+                break;
             }
-            else{
-                if(c==arr.length-1){
-                    System.out.println("Key Not Found");
-                }
-            }
-            
         }
         if(res==-1){
             System.out.print("Key Not Found ");

@@ -8,7 +8,7 @@ public class fibonacci {
         int n= sc.nextInt();
         int a=0;int b=1;
         int c;
-        System.out.print("\nFibonacci Series is : "+a+" "+b); 
+        System.out.print("\nFibonacci Series is : "+a+" "+b);
         for(int i=0;i<n;i++){
             c=a+b;
             a=b;
